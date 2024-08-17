@@ -19,7 +19,7 @@ const stickyNav = function (entries) {
 };
 const stickyObserver = new IntersectionObserver(stickyNav, {
   root: null,
-  threshold: 1,
+  threshold: 0.01,
   rootMargin: `${headerHeight}px`,
 });
 

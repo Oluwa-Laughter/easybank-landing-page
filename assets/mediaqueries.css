@@ -108,9 +108,9 @@
 }
 
 @media (max-width: 34em) {
-  /* html {
+  body {
     overflow-x: hidden;
-  } */
+  }
   .hero-section-container {
     grid-template-columns: 1fr;
   }
@@ -128,7 +128,43 @@
     padding: 1rem;
   }
 
+  .features-section-containe {
+    text-align: center;
+  }
+
   .features-grid {
     grid-template-columns: 1fr;
+    max-width: 30rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primary-header {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+  .secondary-heading {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  .hero-text-box {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .article-text-box {
+    padding: 1.2rem 2.4rem;
   }
 }
