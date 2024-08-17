@@ -93,7 +93,7 @@
 .hero-section-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4.8rem;
+  gap: 5.6rem;
   align-items: center;
 }
 
@@ -103,6 +103,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 3.6rem;
+  max-width: 45rem;
 }
 
 .hero-description {
@@ -182,10 +183,10 @@
 .articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.8rem;
+  gap: 3.6rem;
 }
 .article {
-  max-width: 45rem;
+  max-width: 30rem;
   background-color: #fff;
   box-shadow: 0 1.8rem 3.6rem rgba(0, 0, 0, 0.005);
   border-radius: 7px;

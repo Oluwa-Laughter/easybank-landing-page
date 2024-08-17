@@ -27,7 +27,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -40,7 +39,7 @@ body {
 }
 
 .container {
-  max-width: 90rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
