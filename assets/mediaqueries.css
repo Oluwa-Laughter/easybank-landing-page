@@ -41,6 +41,7 @@
     transform: translateX(100%);
     transition: all 0.5s ease-in;
     backdrop-filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem);
     opacity: 0;
 
     flex-direction: column;
